@@ -1,0 +1,11 @@
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#survey-form {
+    background-color: rgb(230, 230, 230);
+    width: 750px;
+    margin: 0 auto;
+}
