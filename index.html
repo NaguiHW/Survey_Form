@@ -37,30 +37,42 @@
             </select>       
         </div>
         <div>
-            <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
-            <li><label>Definitely<input name="radio=buttons" type="radio" value="definitely"></label></li>
-            <li><label>Maybe<input name="radio=buttons" type="radio" value="maybe"></label></li>
-            <li><label>Not Sure<input name="radio=buttons" type="radio" value="not-sure"></label></li>
-        </div>
-        <div>
-            <label>Things that should be improved in the future (Check all that apply):</label>
-            <div>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="frontend">Front-end Projects</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="backend">Back-end Projects</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="datavisualization">Data Visualization</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="challenges">Challenges</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="opensource">Open Source Community</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="gitterhelp">Gitter help rooms</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="videos">Videos</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="meetups">City Meetups</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="wiki">Wiki</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="forum">Forum</li>
-                <li><input type="checkbox" name="checkbox" id="checkbox" value="addcourses">Additional Courses</li>
+            <div class="text">
+                <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+            </div>
+            <div class="options">
+                <li><input name="radio=buttons" type="radio" value="definitely"><label>Definitely</label></li>
+                <li><input name="radio=buttons" type="radio" value="maybe"><label>Maybe</label></li>
+                <li><input name="radio=buttons" type="radio" value="not-sure"><label>Not Sure</label></li>
             </div>
         </div>
         <div>
-            <label for="text-area">Additional comments: </label>
-            <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+            <div class="text">
+                <label>Things that should be improved in the future (Check all that apply):</label>
+            </div>
+            <div class="options">
+                <div>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="frontend">Front-end Projects</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="backend">Back-end Projects</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="datavisualization">Data Visualization</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="challenges">Challenges</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="opensource">Open Source Community</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="gitterhelp">Gitter help rooms</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="videos">Videos</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="meetups">City Meetups</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="wiki">Wiki</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="forum">Forum</li>
+                    <li><input type="checkbox" name="checkbox" id="checkbox" value="addcourses">Additional Courses</li>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="text">
+                <label for="text-area">Additional comments: </label>
+            </div>
+            <div class="options">
+                <textarea name="text-area" id="text-area" cols="30" rows="5"></textarea>
+            </div>
         </div>
         <div>
             <button id="submit">Submit</button>
