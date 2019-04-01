@@ -25,6 +25,23 @@
             <label for="number" id="number-label">Age: </label>
             <input type="number" name="number" id="number" oninvalid="alert:('This is not a number')" required min="1" max="100" placeholder="Enter your age">
         </div>
+        <div>
+            <label>Which option best describes your current role?</label>
+            <select id="dropdown">
+                <option disabled value>Select an Option</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to Say</option>
+                <option>Other</option>
+            </select>       
+        </div>
+        <div>
+            <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+            <li><label>Definitely<input name="radio=buttons" type="radio"></label></li>
+            <li><label>Maybe<input name="radio=buttons" type="radio"></label></li>
+            <li><label>Not Sure<input name="radio=buttons" type="radio"></label></li>
+        </div>
     </form>
 </body>
 </html>
