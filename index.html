@@ -14,16 +14,16 @@
     </header>
     <form id="survey-form">
         <div>
-            <label for="name">Name:</label>
+            <label for="name" id="name-label">Name:</label>
             <input type="text" name="name" id="name">
         </div>
         <div>
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email" oninvalid="alert:('This is not a e-mail')" required>
+            <label for="email" id="email-label">E-mail: </label>
+            <input type="email" name="email" id="email" oninvalid="alert:('This is not a e-mail')" required placeholder="Enter your e-mail">
         </div>
         <div>
-            <label for="number">Age: </label>
-            <input type="number" name="number" id="number" oninvalid="alert:('This is not a number')" required min="1" max="100">
+            <label for="number" id="number-label">Age: </label>
+            <input type="number" name="number" id="number" oninvalid="alert:('This is not a number')" required min="1" max="100" placeholder="Enter your age">
         </div>
     </form>
 </body>
