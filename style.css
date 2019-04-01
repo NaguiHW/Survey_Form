@@ -9,3 +9,14 @@ body {
     width: 750px;
     margin: 0 auto;
 }
+
+.labels{
+    display: inline-block;
+    text-align: right;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.role{
+    margin: 15px;
+}
